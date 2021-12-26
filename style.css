@@ -11,3 +11,18 @@
     max-width: 375px;
     margin: 0 auto;
 }
+
+
+/* Media Queries */
+
+@media screen and (min-width: 1440px) {
+	body {
+		
+	}
+    .wrapper {
+		
+    }
+	
+
+	
+  }
