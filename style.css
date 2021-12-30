@@ -6,10 +6,85 @@
       clear: both;
       display: table;
     }
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
 
 .wrapper {
     max-width: 375px;
     margin: 0 auto;
+}
+main {
+  background-color: hsl(240, 7%, 97%);
+}
+.above-fold {
+  background-image: url('images/bg-hero-mobile.svg');
+  background-size: cover;
+  background-color: hsl(193, 100%, 96%);
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 650px;
+  padding-bottom: 50px;
+}
+.above-fold h1 {
+  font-size: 2rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px 0px 10px;
+}
+.logo-image {
+  
+}
+.logo-image img {
+  max-width: 150px;
+}
+.header-button button{
+  background-color: #fff;
+  font-weight: bold;
+  border: none;
+  box-shadow: 5px 5px 10px #888888;
+  padding: 6px 20px;
+  border-radius: 16px;
+}
+.get-started-button {
+  color: #fff;
+  padding: 12px 0;
+  border-radius: 26px;
+  background-color: hotpink;
+  width: 80%;
+  border: none;
+  box-shadow: 5px 5px 10px #888888;
+  margin: 25px 0px 55px 0px;
+}
+.build-community {
+  padding: 0px 24px;
+}
+.build-community img {
+  max-width: 100%;
+}
+.card {
+  background-color: white;
+  max-width: 340px;
+  border-radius: 12px;
+  margin: 0 auto;
+  padding: 30px 18px;
+  box-shadow: 5px 5px 10px #888888;
+}
+.card img {
+  max-width: 90%;
+}
+.below-fold {
+  display: grid;
+  grid-row-gap: 34px;
+  padding-top: 50px;
 }
 
 

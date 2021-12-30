@@ -8,49 +8,61 @@
   
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
   
 </head>
 <body>
   <div class="wrapper">
+    <main>
+      <section class="above-fold">
     <header>
-      <img src="images/logo.svg" alt="logo image">
-      <button>Try It Free</button>
+      <div class="logo-image"><img src="images/logo.svg" alt="logo image"></div>
+      <div class="header-button"><button>Try It Free</button></div>
     </header>
 
-  <section>
+  <section class="build-community">
     <h1>Build The Community Your Fans Will Love</h1>
     <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
       Create connections with your users as you engage in genuine discussion.</p>
 
-    <button>Get Started For Free</button>
-</section>
+    <button class="get-started-button">Get Started For Free</button>
+    <img src="images/illustration-mockups.svg" alt="image of design mockups">
+    </section>
+  </section><!-- above the fold -->
 
-  <section>
+  <section class="below-fold">
+  <section class="card grow-together">
+    <img src="images/illustration-grow-together.svg" alt="image of two people">
     <h2>Grow Together</h2>
 
     <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
       Think of the insightful conversations you miss out on with a feedback form.</p> 
   </section>
 
-  <section>
+  <section class="card">
+    <img src="images/illustration-flowing-conversation.svg" alt="image of people talking">
     <h2>Flowing Conversations</h2>
 
     <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
       have just-in-time loading for a more natural flow.</p>
   </section>
 
-  <section>
+  <section class="card">
+    <img src="images/illustration-your-users.svg" alt="image of people talking with one another">
     <h2>Your Users</h2>
 
     <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
       This means, once signed in to your app, your users can start chatting immediately.</p>
   </section>
 
-  <section>
+  <section class="card">
     <h2>Ready To Build Your Community?</h2>
 
     <button>Get Started For Free</button>
 </section>
+</section><!-- below fold -->
 
   <footer>
     <section>
@@ -76,6 +88,7 @@
   &copy; Copyright 2018 Huddle. All rights reserved.
 </section>
 </footer>
+</main>
 </div><!-- wrapper -->
 </body>
 </html>
