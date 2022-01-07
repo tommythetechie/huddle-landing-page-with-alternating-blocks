@@ -85,6 +85,7 @@ header {
   display: grid;
   grid-row-gap: 34px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .ready button {
   color: #fff;
@@ -102,13 +103,31 @@ footer {
   text-align: left;
   display: grid;
   
-  grid-template-rows: 220px 220px 220px;
+  grid-template-rows: 280px 390px 220px;
+  
 
 }
 footer section {
-  border: 1px solid white;
+  
   padding: 50px 20px;
 }
+.footer-location {
+  display: grid;
+  grid-template-columns: 50px 290px;
+  grid-template-rows: auto;
+  align-items: center;
+}
+.footer-menu ul {
+  list-style-type: none;
+}
+.footer-menu ul li {
+  padding: 12px 0px;
+}
+footer .bottom {
+  font-size: 14px;
+  text-align: center;
+}
+
 
 
 /* Media Queries */
